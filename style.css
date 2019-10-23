@@ -1,0 +1,89 @@
+body {
+  background: #5433ff;
+  background: -webkit-linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+  background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+  font-family: 'Big Shoulders Text';
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #8e9eab;
+}
+
+div.white-box {
+  width: 700px;
+  margin: 10px auto;
+  border-radius: 2px;
+  background: #eef2f3;  /* fallback for old browsers */
+  box-shadow: 10px 20px 10px rgba(0,0,0,0.6);
+  text-align: center;
+  padding: 10px 20px;
+  padding-bottom: 30px;
+}
+
+
+p {
+  color: black;
+}
+
+#profile {
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+ul {
+  color: #8e9eab;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 40px;
+  margin: 0px 20px;
+}
+
+a.social_icon i {
+  color: #8e9eab;
+  transition: 0.5s;
+}
+
+a.social_icon i:hover {
+  color: #FB699B;
+}
+
+a.button {
+  color: #E4E8FB;
+  transition: 0.5s;
+  background: #403A3E;
+  background: -webkit-linear-gradient(to bottom, #BE5869, #403A3E);
+  background: linear-gradient(to bottom, #BE5869, #403A3E);
+  padding: 10px 20px;
+  border-top: 30px;
+  border-radius: 20px;
+
+}
+
+a.button:hover {
+  color: #FB699B;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div.white-box {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div.white-box {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div.white-box {
+    width: 300px;
+  }
+}
